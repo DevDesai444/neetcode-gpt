@@ -30,8 +30,3 @@ class Solution:
             if l < len(weights)-1 :
                 h = np.maximum(h,0)
         return np.round(h, 5)
-            
-
-
-
-
